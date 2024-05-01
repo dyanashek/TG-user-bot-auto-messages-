@@ -33,9 +33,9 @@ class Stage:
 
 
 STAGES: Dict[int, Stage] = {
-    1 : Stage(text.msg_1, AwaitTime(0.1, 'minutes'), 1),
-    2 : Stage(text.msg_2, AwaitTime(1, 'minutes'), 2, ['триггер1']),
-    3 : Stage(text.msg_3, AwaitTime(0.1, 'minutes'), 3),
+    1 : Stage(text.msg_1, AwaitTime(6, 'minutes'), 1),
+    2 : Stage(text.msg_2, AwaitTime(39, 'minutes'), 2, ['триггер1']),
+    3 : Stage(text.msg_3, AwaitTime(26, 'hours'), 3),
 }
 
 STOP_WORDS: List[str] = ['прекрасно', 'ожидать',]
